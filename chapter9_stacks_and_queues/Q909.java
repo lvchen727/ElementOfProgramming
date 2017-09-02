@@ -7,9 +7,9 @@ import java.util.Queue;
 
 import chapter10_binary_trees.BinaryTreeNode;
 
-//compute binary tree nodes in order of increasing depth
+//Q: compute binary tree nodes in order of increasing depth
 public class Q909 {
-	
+
 	//use queue: FIFO
 	// O(n)t  where n is number of nodes
 	// O(m)sp where m is max number of nodes at one depth
@@ -17,7 +17,7 @@ public class Q909 {
 		List<List<Integer>> result = new ArrayList<>();
 		Queue<BinaryTreeNode> queue = new LinkedList<>();
 		queue.add(head);
-		while(!queue.isEmpty()){		
+		while(!queue.isEmpty()){
 			List<Integer> currentDepthNums = new ArrayList<>();
 			BinaryTreeNode currentDepthNodes = queue.poll();
 			if(currentDepthNodes != null){

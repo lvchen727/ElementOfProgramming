@@ -4,7 +4,7 @@ package chapter12_searching;
 //assume no duplicates
 // find the position of the smallest element in a cyclic sorted array
 // 378 478 550 631 103 203 220 234 -> 103
-public class Q1203 {
+public class Q1204 {
 
 	//idea: two cases:
 	// 1 : A[m] < A[n-1] , search among A[.....m]
