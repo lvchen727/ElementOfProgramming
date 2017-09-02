@@ -29,7 +29,7 @@ My Java code and notes for element of programming interviews
 5. [Q0808 Remove kth largest element from a list](./chapter8_linked_list/Q0808.java)
 
 # [Chapter 9 Stacks and Queues](./chapter9_stacks_and_queues/README.md)
-1. [Q0901 Implement stack with max API](./chapter9_stacks_and_queues/Q0901.java)
+1. [Q0901 Implement stack with max API](./chapter9_stacks_and_queues/MaxWithCount.java)
 2. [Q0902 Evaluate RPN expressions](./chapter9_stacks_and_queues/Q902.java)
 3. [Q0909 Compute binary tree nodes in order of increasing depth](./chapter9_stacks_and_queues/Q909.java)
 4. [Q0910 Implement circular queue](./chapter9_stacks_and_queues/Q910.java)
