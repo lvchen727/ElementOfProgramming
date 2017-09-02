@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 
 //merge sorted files: <3,5,7> , <0,6>, <0,6,28> -> <0,0,3,5,6,6,7,28>
 
-public class A1101 {
+public class Q1101 {
 	
 	//1. brute force: concatenate, then sort 
 	//time complexity O(nlog(n))  total of n numbers
