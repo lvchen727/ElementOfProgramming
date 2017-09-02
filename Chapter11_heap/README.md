@@ -4,10 +4,10 @@
 1. heap property(max-heap): the key at each node is as great as its children
 2. can be implemented as array
 3. operations
-* insertion $O(logn)$
-* deletion  $O(logn)$
-* search    $O(n)$
-* findMax   $O(1)$
+* insertion  O(logn) 
+* deletion   O(logn)
+* search     O(n)
+* findMax    O(1)
 
 ## JAVA bootcamp
 ### use PriorityQueue
