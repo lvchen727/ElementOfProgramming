@@ -13,6 +13,7 @@ My Java code and notes for element of programming interviews
 4. [Q0612 Sample Offline data](./chapter6_array/Q612.java)
 5. [Q0617 Suduko Checker](./chapter6_array/Q617.java)
 6. [Q0618 Spiral orderin of 2D array](./chapter6_array/Q618.java)
+7. [Q0611 Compute the next permutation](./chapter6_array/Q611.java)
 
 # Chapter 7 String
 1. [Q0701 Interconvert integer and string](./chapter7_string/Q0701.java)
@@ -72,10 +73,13 @@ My Java code and notes for element of programming interviews
 # [Chapter 16 Recursion](./chapter16_recursion/README.md)
 1. [Q1601 The tower of Hanoi ](./chapter16_recursion/Q1601.java)
 2. [Q1602 NQueens ](./chapter16_recursion/Q1602.java)
+3. [Q1603 Generate permutations ](./chapter16_recursion/Q1603.java)
 
 # [Chapter 17 Dynamic programming](./chapter17_dynamic_programming/README.md)
 1. [Q1701 Count the number of score combinations ](./chapter17_dynamic_programming/Q1701.java)
 2. [Q1702 Compute Levenshtein distance ](./chapter17_dynamic_programming/Q1702.java)
+3. [Q1703 Compute number of ways to traverse a 2D array](./chapter17_dynamic_programming/Q1703.java)
+
 
 # [Chapter 18 Greedy Algorithm and Invariant](./chapter18_greedy_algo_and_invariant/README.md)
 1. [Q1805 The 3-sum ](./chapter18_greedy_algo_and_invariant/Q1805.java)
@@ -95,3 +99,9 @@ public static randInt(int min, int max){
   int randomNum = rand.nextInt((max-min) + 1) + min;
   return randomNum;
 }
+```
+
+## How to initialize a ArrayList
+```JAVA
+List<String> x = new ArrayList<>(Arrays.asList("xyz", "abc"));
+```
